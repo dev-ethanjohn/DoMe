@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SideMenu.swift
 //  DoMe
 //
 //  Created by Ethan John Paguntalan on 2/2/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SideMenu: View {
     var body: some View {
-        Text("Hello")
+        Text("Hello, World!")
     }
 }
 
 #Preview {
-    ContentView()
+    SideMenu()
 }
