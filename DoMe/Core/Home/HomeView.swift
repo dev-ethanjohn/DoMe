@@ -7,10 +7,17 @@
 
 import SwiftUI
 
-//MARK: Main view with the sidemenu
+//MARK: Todayview with the sidemenu
 struct HomeView: View {
+
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            Color.gray.ignoresSafeArea()
+            
+            SideMenu()
+            
+            TodayView()
+        }
     }
 }
 
