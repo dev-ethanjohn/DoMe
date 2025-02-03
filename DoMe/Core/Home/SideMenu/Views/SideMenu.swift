@@ -10,8 +10,7 @@ import SwiftUI
 struct SideMenu: View {
     
     var body: some View {
-        VStack {
-            VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 0) {
                 
                 // TODO: Check layout later once home with list is created
                 //                HStack(alignment: .bottom) {
@@ -57,8 +56,6 @@ struct SideMenu: View {
                 Spacer()
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-        }
-        //.frame(maxWidth: .infinity, alignment: .leading)
         //Check layout
         //.background(.orange)
     }
